@@ -24,8 +24,18 @@ const userSchema = new Schema(
         "Please fill a valid email address",
       ],
     },
-    thoughts: [{ type: Schema.Types.ObjectId, ref: 'thoughts' }],
-    friends: [{ type: Schema.Types.ObjectId, ref: 'user' }],
+    thoughts: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: "Thoughts"
+      }
+    ],
+    friends: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: "User"
+      }
+    ],
   },
   {
     toJSON: {
@@ -38,6 +48,6 @@ userSchema.virtual('friendCount').get(function () {
   return this.friends.length;
 });
 
-const User = model('user', userSchema);
+const User = model('User', userSchema);
 
 module.exports = User;

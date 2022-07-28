@@ -54,9 +54,9 @@ module.exports = {
           )
       )
       .then((user) =>
-        !use
+        !user
           ? res.status(404).json({ message: 'Thought deleted, user not found!' })
-          : res.json({ message: 'Thought delere' })
+          : res.json({ message: 'Thought deleted' })
       )
       .catch((err) => res.status(500).json(err));
   },
@@ -77,7 +77,7 @@ module.exports = {
   // Delete a Reaction
   deleteReaction(req, res) {
     Thoughts.findOneAndUpdate(
-      { _id: req.params.reactionId },
+      { _id: req.params.thoughtId },
       { $pull: { reactions: { reactionId: req.params.reactionId } } },
       { runValidators: true, new: true }
     )
