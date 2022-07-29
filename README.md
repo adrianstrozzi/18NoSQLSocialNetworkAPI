@@ -1,4 +1,4 @@
-# <span style="color:skyblue">**NoSQL Social Network API **</span>
+# <span style="color:skyblue">**NoSQL Social Network API**</span>
 
 ## <span style="color:violet">Table of Contents</span>
 
