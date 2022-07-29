@@ -27,7 +27,7 @@
 
 ## <span style="color:violet">Video Tutorial</span>
 
-Use this `link` to access a video tutorial: [Adrian Strozzi - NoSQL Social Network API](new)
+Use this `link` to access a video tutorial: [Adrian Strozzi - NoSQL Social Network API](https://youtu.be/Swo3ODC7jt8)
 
 ## <span style="color:violet">Usage</span>
 
@@ -57,7 +57,7 @@ npm start
 
 7 - Make sure you install [Thunder Client](https://www.thunderclient.com/) as an extension in VS Code as you will be using it to send the requests to manipulate your database.
 
-8 - Visit the [Video Tutorial](new) for a detailed guide on how to use the App.
+8 - Visit the [Video Tutorial](https://youtu.be/Swo3ODC7jt8) for a detailed guide on how to use the App.
 
 ## <span style="color:violet">Credits</span>
 
