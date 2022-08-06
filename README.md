@@ -38,7 +38,7 @@ Use this `link` to access a video tutorial: [Adrian Strozzi - NoSQL Social Netwo
 3 - You can `clone` or `download` this repo as a ZIP file:
 
 ```sh
-git clone https://github.com/adrianstrozzi/Tec13ECommerceBackEnd.git
+git clone https://github.com/adrianstrozzi/18NoSQLSocialNetworkAPI.git
 ```
 
 4 - Once you have downloaded the App use the following command in your terminal to `install the required dependencies`:
